@@ -8,6 +8,10 @@ ul{
     list-style-type: none;
 }
 
+.clear{
+    clear: both;
+}
+
 /*ASIDE*/
 aside{
     background-color: #647087;
@@ -30,6 +34,7 @@ aside section h2:first-child{
 
 #profile-pic img{
     border-radius: 50%;
+
 }
 
 /*MAIN*/
@@ -72,4 +77,36 @@ article ul{
 
 .references{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.references article{
+    width: 50%;
+}
+
+/*DL*/
+
+dt,
+dd{
+   line-height: 1.5em;
+   border-top: 1px solid white;
+   float: left;
+}
+dt{
+    clear:left;
+    width: 30%;
+    font-weight: bolder;
+    
+    
+}
+
+dd{
+    clear: right;
+    width: 50%;
+    margin: 0;
+}
+
+dt:last-of-type,
+dd:last-of-type{
+    border-bottom: 1px solid white;
 }
