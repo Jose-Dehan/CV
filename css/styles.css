@@ -1,3 +1,12 @@
+/*LAYOUT*/
+.main-container{
+    display: flex;
+}
+/*GRAL*/
+ul{
+    list-style-type: none;
+}
+
 /*ASIDE*/
 aside{
     background-color: #647087;
@@ -16,11 +25,6 @@ aside section h2:first-child{
 }
 
 
-ul{
-    list-style-type: none;
-}
-
-
 #profile-pic img{
     border-radius: 50%;
 }
@@ -32,16 +36,18 @@ main section > h2{
 }
 .hero{
     background-color: #EDC0AF;
-    box-shadow: 3px 3px 30px 5px white inset;
+    box-shadow: 2px 2px 40px 1px white inset;
 }
 
 .hero h2{
     color: white;
     border-top: 2px solid white;
+    text-transform: none;
+    letter-spacing: normal;
 }
 
 
-article h3,
+article h3, 
 article h4{
     font-weight: bold;
 }
