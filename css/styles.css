@@ -20,18 +20,19 @@ ul{
     list-style-type: none;
 }
 
-article ul{
-    list-style-type: square;
-
-}
 
 #profile-pic img{
     border-radius: 50%;
 }
 
 /*main*/
+main section > h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 .hero{
-    background-color: #F7DDC3;
+    background-color: #EDC0AF;
+    box-shadow: 3px 3px 30px 5px white inset;
 }
 
 .hero h2{
@@ -39,6 +40,21 @@ article ul{
     border-top: 2px solid white;
 }
 
-.hero{
-    box-shadow: 3px 3px 30px 5px white inset;
+
+article h3,
+article h4{
+    font-weight: bold;
+}
+
+article ul{
+    list-style-type: square;
+
+}
+
+.about-me{
+    background-color: #F7DDC3;
+}
+
+.about-me h2{
+    background-color: white;
 }
