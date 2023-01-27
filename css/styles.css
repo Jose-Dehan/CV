@@ -1,3 +1,4 @@
+/*ASIDE*/
 aside{
     background-color: #647087;
 }
@@ -26,4 +27,18 @@ article ul{
 
 #profile-pic img{
     border-radius: 50%;
+}
+
+/*main*/
+.hero{
+    background-color: #F7DDC3;
+}
+
+.hero h2{
+    color: white;
+    border-top: 2px solid white;
+}
+
+.hero{
+    box-shadow: 3px 3px 30px 5px white inset;
 }
