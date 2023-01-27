@@ -1,6 +1,7 @@
 /*LAYOUT*/
 .main-container{
     display: flex;
+    width: 1200px;
 }
 /*GRAL*/
 ul{
@@ -10,6 +11,8 @@ ul{
 /*ASIDE*/
 aside{
     background-color: #647087;
+    width: 30%;
+    margin-right: 3%;
 }
 
 aside *{
@@ -29,7 +32,7 @@ aside section h2:first-child{
     border-radius: 50%;
 }
 
-/*main*/
+/*MAIN*/
 main section > h2{
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -63,4 +66,10 @@ article ul{
 
 .about-me h2{
     background-color: white;
+}
+
+/*REFERENCES*/
+
+.references{
+    display: flex;
 }
