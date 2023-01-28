@@ -1,0 +1,197 @@
+/*LAYOUT*/
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*GRAL*/
+ul{
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.clear{
+    clear: both;
+}
+
+h1,
+h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+/*ASIDE*/
+aside{
+    background-color: #57657a;
+    flex-basis: 70%;
+    margin-right: 2%; 
+}
+
+aside *{
+    color: white;
+    
+}
+
+aside h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 3%;
+}
+
+aside section h2:first-child{
+    border-bottom: 2px solid white;
+}
+
+
+#profile-pic img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display: block;
+}
+
+.name{
+    margin-left: 90px;
+    font-size: x-large;
+}
+
+/*MAIN*/
+main{
+    flex-basis: 120%;
+}
+main section h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.hero{
+    box-shadow: 2px 2px 40px 1px white inset;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.hero h2{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+
+article h3, 
+article h4{
+    font-weight: bold;
+    line-height: 1.2em;
+    
+}
+
+article h3{
+    line-height: 0.5em;
+    margin-left: 35px;
+}
+
+article h4{
+    margin-left: 70px;
+}
+
+
+.about-me p{
+    line-height: 2em;
+    background-color: #95d9ed;
+    padding: 15px;
+}
+
+.point ul{
+    list-style-type: disc;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-size: 17px;
+}
+
+.point ul:last-child{
+    margin-bottom: 0px;
+}
+
+/*REFERENCES*/
+
+.references{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #b5b5b5;
+    text-align: center;
+}
+
+.references article{
+    width: 50%;
+}
+
+
+.references figure span{
+    font-size: 17px;
+}
+/*DL*/
+
+dt,
+dd{
+   line-height: 1.6em;
+   border-top: 1px solid white;
+   float: left;
+   font-size: 17px;
+}
+
+dt{
+    clear:left;
+    width: 30%;
+    font-weight: bolder;  
+}
+
+dd{
+    margin: 0;
+    clear: right;
+    width: 60%;
+}
+
+
+dt:last-of-type,
+dd:last-of-type{
+    border-bottom: 1px solid white;
+}
+
+
+/*ICONS*/
+
+.ph::before{
+    content: "\f095";
+    font-family: "Font Awesome 5 Free";   
+}
+
+.ig::before{
+    content: "\f083";
+    font-family: "Font Awesome 5 Free";     
+}
+
+.em::before{
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";     
+}
+
+.loc::before{
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";  
+}
+.item::before{
+    font-size: 23px;
+    margin-left: 10%;
+}
+
+/*METER*/
+meter{
+    display: block;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+
