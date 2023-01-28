@@ -100,8 +100,9 @@ article h4{
 
 .about-me p{
     line-height: 2em;
-    background-color: #95d9ed;
+    background-color: #9bddf1;
     padding: 15px;
+    font-size: 17px;
 }
 
 .point ul{
@@ -115,6 +116,9 @@ article h4{
     margin-bottom: 0px;
 }
 
+ul span{
+    margin-left: 20%;
+}
 /*REFERENCES*/
 
 .references{
